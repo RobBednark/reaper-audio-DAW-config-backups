@@ -9,6 +9,8 @@ F 50_percent_ai_both_Rob_and_Bumhan.wav 414385728 0 1758144545 0
 D s 44100 n 1 l 1:18:18.250 i 16
 F "Bumhan_only_with_AI__riverside_b_& rob _ sep 10, 2025 003_rob_bednark's studio (1).wav" 414385728 0 1757539796 0
 D s 44100 n 1 l 1:18:18.250 i 16
+F ellen_ep_7__hardlink.wav 434601904 0 1764555007 0
+D s 44100 n 1 l 1:22:07.458 i 16
 F "ep_1 rob 100% AI Riverside.wav" 85227004 0 1757616093 0
 D s 44100 n 1 l 16:06.291 i 16
 F Ep_1_Rob_B_in_Portland_OR_2025_04_10_Three_Answers_Podcast.mp3 38651819 0 1745956562 0
@@ -33,6 +35,8 @@ D s 44100 n 2 l 2:32:05.512 i 112k
 D j "mime:image/ offset:5325 length:72950"
 F Lex_Fridman_podcast__2025-06-05--lex_ai_sundar_pichai.mp3 99236049 0 1761948521 0
 D s 48000 n 1 l 2:17:49.512 i 96k
+F lyudmyla_ep_5__hardlink.wav 280902378 0 1764555003 0
+D s 44100 n 1 l 53:04.833 i 16
 F original_raw_no_ai__Ep_4__Bumhan.mp3 75173301 0 1760744106 0
 D s 44100 n 2 l 1:18:18.269 i 128k
 F "riverside_background_noise remove on export, no other chang_rob_bednark's studio.wav" 414385728 0 1758152913 0
@@ -49,6 +53,10 @@ F "riverside_rob_bednark_raw-audio_rob_bednark's studio_0007(1).wav" 414387418 0
 D s 44100 n 1 l 1:18:18.269 i 16
 F "riverside_rob_bednark_raw-audio_rob_bednark's studio_0007.wav" 414379922 0 1757348545 0
 D s 44100 n 1 l 1:18:18.184 i 16
+F rob_ep_5__hardlink.wav 280902378 0 1764554989 0
+D s 44100 n 1 l 53:04.833 i 16
+F rob_ep_7__hardlink.wav 434601904 0 1764554968 0
+D s 44100 n 1 l 1:22:07.458 i 16
 F "Rob_only_with_AI__riverside_b_& rob _ sep 10, 2025 003_rob_bednark's studio (2).wav" 414385728 0 1757539798 0
 D s 44100 n 1 l 1:18:18.250 i 16
 F strongsongs-podcast-2025-10-31--20khzmario-2.mp3 31740561 0 1761948329 0
