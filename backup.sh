@@ -22,6 +22,7 @@ cd ..
 pwd
 
 if [ -f $FILE_ZIP ]; then
+    mkdir -p $DIR_ZIP_TO
     cd $DIR_ZIP_TO
     pwd
     unzip -v ../$FILE_ZIP
