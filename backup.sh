@@ -26,10 +26,11 @@ if [ -f $FILE_ZIP ]; then
     mkdir -p $DIR_ZIP_TO
     cd $DIR_ZIP_TO
     pwd
-    unzip -v ../$FILE_ZIP
+    unzip ../$FILE_ZIP
     rm -fr ColorThemes
     rm -fr Data
     rm -fr MetadataCaches
+    cd ..
 fi
 
 echo 'Note that "cp -pr" copies symlinks as files/dirs, NOT as symlinks, so it is safe to "rm" here.'
