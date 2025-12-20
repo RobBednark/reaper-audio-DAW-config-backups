@@ -18,6 +18,7 @@ pwd
 cp -pr ../$DIR_LIB_FROM/* ./
 rm -fr ColorThemes
 rm -fr Data
+rm -fr MetadataCaches
 cd ..
 pwd
 
@@ -28,6 +29,7 @@ if [ -f $FILE_ZIP ]; then
     unzip -v ../$FILE_ZIP
     rm -fr ColorThemes
     rm -fr Data
+    rm -fr MetadataCaches
 fi
 
 echo 'Note that "cp -pr" copies symlinks as files/dirs, NOT as symlinks, so it is safe to "rm" here.'
