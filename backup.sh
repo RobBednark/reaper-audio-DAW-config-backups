@@ -16,6 +16,8 @@ ls -l $DIR_LIB_FROM
 cd $DIR_LIB_TO
 pwd
 cp -pr ../$DIR_LIB_FROM/* ./
+rm -fr ColorThemes
+rm -fr Data
 cd ..
 pwd
 
@@ -23,9 +25,9 @@ if [ -f $FILE_ZIP ]; then
     cd $DIR_ZIP_TO
     pwd
     unzip -v ../$FILE_ZIP
+    rm -fr ColorThemes
+    rm -fr Data
 fi
 
 echo 'Note that "cp -pr" copies symlinks as files/dirs, NOT as symlinks, so it is safe to "rm" here.'
-rm -fr ColorThemes
-rm -fr Data
 git status
