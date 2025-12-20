@@ -14,11 +14,14 @@ git status
 mkdir -p $DIR_LIB_TO
 ls -l $DIR_LIB_FROM
 cd $DIR_LIB_TO
-cp -pr DIR_LIB_FROM/* ./
+pwd
+cp -pr ../$DIR_LIB_FROM/* ./
 cd ..
+pwd
 
 if [ -f $FILE_ZIP ]; then
     cd $DIR_ZIP_TO
+    pwd
     unzip -v ../$FILE_ZIP
 fi
 
