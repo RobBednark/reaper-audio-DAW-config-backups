@@ -26,7 +26,8 @@ if [ -f $FILE_ZIP ]; then
     mkdir -p $DIR_ZIP_TO
     cd $DIR_ZIP_TO
     pwd
-    unzip ../$FILE_ZIP
+    # -o ==> force overwrite without prompting (like -f (force) in other utilities)
+    unzip -o ../$FILE_ZIP
     rm -fr ColorThemes
     rm -fr Data
     rm -fr MetadataCaches
