@@ -11,6 +11,7 @@ DIR_ZIP_TO=./backup_from_REAPER_preferences_export_config/
 
 set +vx
 echo '================================================================================'
+echo 'NOTE: The mouse modifiers are not saved in a human-readable way, and I haven not found a way to dump a human-readable list.'
 echo 'NOTE: Manually export manually_exported/ActionList.txt via the action "SWS/S&M: Dump action list (all actions)"'
 echo 'NOTE: Manually export ReaperConfigZip via the action "File: Export configuration..."'
 echo '================================================================================'
