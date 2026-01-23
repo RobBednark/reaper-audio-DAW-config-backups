@@ -9,6 +9,9 @@ DIR_LIB_TO=./backup_copied_from_home_Library
 FILE_ZIP="./*Zip"
 DIR_ZIP_TO=./backup_from_REAPER_preferences_export_config/
 
+echo '================================================================================'
+echo 'NOTE: Manually export manually_exported/ActionList.txt via the action "SWS/S&M: Dump action list (all actions)"'
+echo 'NOTE: Manually export ReaperConfigZip via the action "File: Export configuration..."'
 
 git status
 mkdir -p $DIR_LIB_TO
