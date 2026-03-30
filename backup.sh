@@ -13,7 +13,7 @@ set +vx
 echo '================================================================================'
 echo 'NOTE: Manually export manually_exported/ActionList.txt via the action "SWS/S&M: Dump action list (all actions)"'
 echo 'NOTE: Manually export the actions and mouse modifiers via the action "Help: Mouse modifier keys and action shortcuts" and then save the page from the browser as "Webpage, HTML Only"'
-echo 'NOTE: Manually export ReaperConfigZip via the action "File: Export configuration..."'
+echo 'NOTE: Manually export ReaperConfigZip via the action "Actions > File: Export configuration..." (save *Zip file to top level of this repo, and this backup.sh script will unzip it)'
 echo '================================================================================'
 set -vx
 
@@ -48,6 +48,6 @@ set +vx
 echo '================================================================================'
 echo 'NOTE: Manually export manually_exported/ActionList.txt via the action "SWS/S&M: Dump action list (all actions)"'
 echo 'NOTE: Manually export the actions and mouse modifiers via the action "Help: Mouse modifier keys and action shortcuts" and then save the page from the browser as "Webpage, HTML Only"'
-echo 'NOTE: Manually export ReaperConfigZip via the action "File: Export configuration..."'
+echo 'NOTE: Manually export ReaperConfigZip via the action "Actions > File: Export configuration..." (save *Zip file to top level of this repo, and this backup.sh script will unzip it)'
 echo '================================================================================'
 set -vx

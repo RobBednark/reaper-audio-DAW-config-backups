@@ -1903,7 +1903,7 @@ Main	40894	Item: Explode multichannel audio or MIDI to new one-channel items
 Main	40895	Track: Set track record mode to output (full multichannel)
 Main	40896	Track: Set track record mode to output (full multichannel compensated)
 Main	40897	File: Save all projects
-Main	40898	Markers: Renumber all markers and regions in timeline order
+Main	40898	Regions/markers: Renumber all regions and markers in timeline order
 Main	40899	Track: Set track icon...
 Main	40900	Track: Remove track icon
 Main	40901	Track: Freeze to mono (render pre-fader, save/remove items and online FX)
@@ -2808,7 +2808,7 @@ Main	41925	Item: Nudge items volume +1dB
 Main	41926	Take: Nudge active takes volume -1dB
 Main	41927	Take: Nudge active takes volume +1dB
 Main	41928	ReaScript: Run/edit ReaScript (EEL2 or Lua)...
-Main	41929	New project tab (ignore default template)
+Main	41929	New project tab, ignore default template
 Main	41930	Theme development: Show theme tweak/configuration window
 Main	41931	ReaScript: Run/edit last ReaScript (EEL2 or Lua)
 Main	41932	Insert dedicated video processor item
@@ -3058,11 +3058,13 @@ Main	42317	File: Save live output to disk (bounce), using the most recent bounce
 Main	42320	Ruler: Set to default height
 Main	42321	Ruler: Set to minimum height
 Main	42322	Ruler: Set to maximum height
+Main	42323	Ruler: Show/collapse all ruler lanes
+Main	42324	Region/Marker manager: Show regions/markers in visible lanes only
 Main	42325	Ruler: Display tempo and time signature changes in separate lanes (when size permits)
 Main	42326	Ruler: Display tempo changes
 Main	42327	Ruler: Display time signature changes
-Main	42328	Ruler: Display project regions/markers as gridlines in arrange view
-Main	42329	Ruler: Display time signature changes as gridlines in arrange view
+Main	42328	Ruler: Display region and marker lines in arrange view
+Main	42329	Ruler: Display time signature lines in arrange view
 Main	42330	Tempo envelope: Insert tempo marker at edit cursor, without opening tempo edit dialog
 Main	42331	Grid: Divide arrange view vertically by measures
 Main	42332	File: Save project and render RPP-PROX
@@ -3486,7 +3488,7 @@ Main	42784	Toolbar: Open MIDI toolbar 16 at mouse cursor
 Main	42785	Track: Move tracks to new folder
 Main	42786	Track: Move tracks to folder...
 Main	42787	Track lanes: Move items down to first available lane, add lane if needed
-Main	42788	Options: Track media/razor edit grouping affects only items that start and end at the same time
+Main	42788	Options: Track media/razor edit grouping affects items that start and end at the same time
 Main	42789	Track lanes: Delete comp areas for track under mouse
 Main	42790	Track lanes: Play only first lane
 Main	42791	Track lanes: Play only first lane for track under mouse
@@ -3739,6 +3741,8 @@ Main	43346	Ruler: Reset project start time
 Main	43347	Ruler: Set measure 1 to nearest measure to current edit cursor
 Main	43348	Ruler: Reset project start measure
 Main	43349	File: Dry run render project, using the most recent render settings
+Main	43354	Transport: Play (solo selected items)
+Main	43355	Transport: Play (stop at end of selected items, ignore loop selection)
 Main	43401	Toolbars: Show toolbar 1 as menu
 Main	43402	Toolbars: Show toolbar 2 as menu
 Main	43403	Toolbars: Show toolbar 3 as menu
@@ -3803,6 +3807,59 @@ Main	43486	Ruler: Show/hide selected project regions
 Main	43487	Ruler: Show/hide all project regions
 Main	43488	Ruler: Show/hide selected project regions and markers
 Main	43489	Ruler: Show/hide all project regions and markers
+Main	43492	Ruler: Rename ruler lane 1
+Main	43493	Ruler: Rename ruler lane 2
+Main	43494	Ruler: Rename ruler lane 3
+Main	43495	Ruler: Rename ruler lane 4
+Main	43496	Ruler: Rename ruler lane 5
+Main	43497	Ruler: Rename ruler lane 6
+Main	43498	Ruler: Rename ruler lane 7
+Main	43499	Ruler: Rename ruler lane 8
+Main	43500	Ruler: Rename ruler lane 9
+Main	43501	Ruler: Rename ruler lane 10
+Main	43502	Ruler: Rename ruler lane 11
+Main	43503	Ruler: Rename ruler lane 12
+Main	43504	Ruler: Rename ruler lane 13
+Main	43505	Ruler: Rename ruler lane 14
+Main	43506	Ruler: Rename ruler lane 15
+Main	43507	Ruler: Rename ruler lane 16
+Main	43508	Ruler: Show/hide ruler lane 1
+Main	43509	Ruler: Show/hide ruler lane 2
+Main	43510	Ruler: Show/hide ruler lane 3
+Main	43511	Ruler: Show/hide ruler lane 4
+Main	43512	Ruler: Show/hide ruler lane 5
+Main	43513	Ruler: Show/hide ruler lane 6
+Main	43514	Ruler: Show/hide ruler lane 7
+Main	43515	Ruler: Show/hide ruler lane 8
+Main	43516	Ruler: Show/hide ruler lane 9
+Main	43517	Ruler: Show/hide ruler lane 10
+Main	43518	Ruler: Show/hide ruler lane 11
+Main	43519	Ruler: Show/hide ruler lane 12
+Main	43520	Ruler: Show/hide ruler lane 13
+Main	43521	Ruler: Show/hide ruler lane 14
+Main	43522	Ruler: Show/hide ruler lane 15
+Main	43523	Ruler: Show/hide ruler lane 16
+Main	43524	Ruler: Delete ruler lane 1
+Main	43525	Ruler: Delete ruler lane 2
+Main	43526	Ruler: Delete ruler lane 3
+Main	43527	Ruler: Delete ruler lane 4
+Main	43528	Ruler: Delete ruler lane 5
+Main	43529	Ruler: Delete ruler lane 6
+Main	43530	Ruler: Delete ruler lane 7
+Main	43531	Ruler: Delete ruler lane 8
+Main	43532	Ruler: Delete ruler lane 9
+Main	43533	Ruler: Delete ruler lane 10
+Main	43534	Ruler: Delete ruler lane 11
+Main	43535	Ruler: Delete ruler lane 12
+Main	43536	Ruler: Delete ruler lane 13
+Main	43537	Ruler: Delete ruler lane 14
+Main	43538	Ruler: Delete ruler lane 15
+Main	43539	Ruler: Delete ruler lane 16
+Main	43540	Ruler: Add ruler lane...
+Main	43541	Ruler: Quick add ruler lane
+Main	43542	Ruler: Ruler lane manager...
+Main	43543	Region/Marker manager: Show regions
+Main	43544	Region/Marker manager: Show markers
 Main	43561	Automation: Save and clear all track envelope latches 
 Main	43562	Automation: Restore all saved track envelope latches
 Main	43563	Automation: Save and clear track envelope latches
@@ -3820,6 +3877,14 @@ Main	43574	Track: Override/show all hidden tracks in TCP
 Main	43575	Track: Show/hide all pinned tracks in TCP
 Main	43576	Track: Show/hide all pinned tracks in TCP (ignore master)
 Main	43578	File: Save copy of project as (prompt with current name)...
+Main	43580	Markers: Insert marker at mouse position ignoring snap
+Main	43581	Markers: Insert and/or edit marker at mouse position ignoring snap
+Main	43582	Markers: Insert marker at mouse position
+Main	43583	Markers: Insert and/or edit marker at mouse position
+Main	43584	Markers: Quick-add or edit marker at current position
+Main	43585	Markers: Quick-add or edit marker at mouse position
+Main	43586	Markers: Quick-add or edit marker at mouse position ignoring snap
+Main	43587	Ruler: Collapse ruler lanes when ruler is too small to display them
 Main	43588	Envelope: Remove unnecessary points
 Main	43589	Envelope: Remove unnecessary points within time selection
 Main	43590	Envelope: Remove unnecessary selected points
@@ -3832,6 +3897,8 @@ Main	43631	Options: Solo via dedicated solo bus (preference, master outputs can 
 Main	43632	Scrub: Prompt to edit looped-segment scrub range
 Main	43636	Options: Move take envelope points when moving media item contents
 Main	43637	Project: Toggle project timebase to time
+Main	43638	Options: Track media/razor edit grouping affects items that start or end at the same time
+Main	43639	Options: Track media/razor edit grouping affects items that are enclosed by the edited item
 Main	43640	Project: Set project timebase to beats (auto-stretch at tempo changes)
 Main	43641	Project: Project timebase affects MIDI items
 Main	43642	View: Toggle show/hide media item timebase buttons
@@ -3861,15 +3928,22 @@ Main	43686	Spectrogram: Reset gain of selected spectral edits to +0 dB
 Main	43687	Spectrogram: Delete selected spectral edits
 Main	43688	Spectrogram: Show selected spectral edit configuration menu
 Main	43689	FX: Set all FX online one at a time
+Main	43690	Options: Ripple edit all affects regions/markers
 Main	43691	Items: Set take FX offline for all inactive takes in the project
 Main	43692	Items: Set take FX online for all active takes in the project
 Main	43693	Items: Set take FX online if active, offline if inactive for all takes in the project
+Main	43696	Item: Lock all items on selected tracks
 Main	43697	File: Choose project(s) to open...
 Main	43698	FX: Delete all track FX on selected tracks
 Main	43701	Track lanes: Play only most recently playing lane
 Main	43702	Track lanes: Play only most recently playing lane for track under mouse
 Main	43703	Options: Set metronome speed to 0.5x
 Main	43705	View: Secondary time unit for ruler: Minutes:Seconds (minimal)
+Main	43709	Ruler: Resize ruler when lane count changes
+Main	43710	Ruler: Display marker number even if marker is named
+Main	43711	Ruler: Resize now to fit all ruler lanes
+Main	43715	Regions/markers: Renumber all regions and markers in timeline order by ruler lane
+Main	43716	Ruler: Hide tempo/time signature area if project has no tempo/time signature changes
 Main	45000	Take: Set 1st take active
 Main	45001	Take: Set 2nd take active
 Main	45002	Take: Set 3rd take active
@@ -3880,6 +3954,9 @@ Main	45006	Take: Set 7th take active
 Main	45007	Take: Set 8th take active
 Main	45008	Take: Set 9th take active
 Main	46000	Track: Insert track from template...
+Main	47306	Markers: Insert marker at edit cursor
+Main	47307	Markers: Insert and/or edit marker at edit cursor
+Main	47308	Markers: Quick-add or edit marker at edit cursor
 Main	48500	Layout: Default layout
 Main	50122	Video: Fullscreen
 Main	50123	Video: Clear video cache/re-render frames
@@ -8988,8 +9065,8 @@ Crossfade Editor	43350	Preview: Play left item only, soloed
 Crossfade Editor	43351	Preview: Play right item only, soloed
 Crossfade Editor	43352	Preview: Play both items, soloed
 Crossfade Editor	43353	Preview: Play project
-Crossfade Editor	43455	Options: Re-center after mouse edits
-Crossfade Editor	43456	Options: Continuous auto-center
+Crossfade Editor	43455	Options: Auto-center after mouse edits
+Crossfade Editor	43456	Options: Auto-center continuously
 Crossfade Editor	43457	Edit: Maximize phase alignment by adjusting left item position
 Crossfade Editor	43458	Edit: Maximize phase alignment by adjusting right item position
 Crossfade Editor	43459	Edit: Maximize phase alignment by adjusting left item contents
@@ -9061,7 +9138,7 @@ Crossfade Editor	43630	Preview: Play/stop from start of right item
 Crossfade Editor	43633	Mute left-hand item
 Crossfade Editor	43634	Mute right-hand item
 Crossfade Editor	43635	Solo crossfaded items
-Crossfade Editor	43649	Options: Allow hand scroll on ruler (no re-center)
+Crossfade Editor	43649	Options: Auto-center disabled (allow hand scroll on ruler)
 Crossfade Editor	43650	Options: Allow left and right items to be on different tracks
 Crossfade Editor	43657	Preview: Play left item only, soloed, out of bounds audio only
 Crossfade Editor	43658	Preview: Play right item only, soloed, out of bounds audio only
